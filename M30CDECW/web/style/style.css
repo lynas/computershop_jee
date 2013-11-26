@@ -1,0 +1,169 @@
+/* 
+    Document   : style
+    Created on : 06-Mar-2013, 20:32:49
+    Author     : LynAs
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+
+}
+select {
+    width:140px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 850px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#main { background: #eee }
+
+#header {
+    height: 100px;
+    background: #aaa;
+
+}
+
+.headerText{
+    text-decoration: none !important;
+}
+#header2 {
+    height: 30px;
+    background: #aac;
+    text-align: right;
+}
+
+
+
+#indexLeftColumn {
+    width: 200px;
+    float: left;
+    background: #ccc;
+}
+
+#indexRightColumn {
+
+    width: 620px;
+    float: left;
+    background: #eee;
+}
+
+.items{
+    display: block;
+
+
+}
+.categoryBox {
+    height: 176px;
+    width: 212px;
+    margin: 21px 14px 6px;
+    float: inherit;
+    background: #ccc;
+}
+
+.categoryLabelText {
+    line-height: 150%;
+    font-size: x-large;
+}
+
+
+
+#footer {
+    padding-top: 5px;
+    height: 60px;
+    width: 370px;
+    clear: left;
+
+}
+
+
+hr {
+    border: 0;
+    background-color: #333;
+    height: 1px;
+    margin: 0 25px;
+    width: 300px;
+}
+
+
+
+
+
+.productDetails{
+    text-align: left;
+    background: gray;
+    width: 300px;
+    height: 60px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+table{
+    padding: 5px;
+}
+
+table td {
+    width: 135px;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+    padding: 5px;
+}
+
+.productDetails.the{
+
+    height: 50px;
+
+
+}
+
+
+.connUser{
+    float: left;
+}
+
+
+
+.fTitle{
+    text-align: right;
+}
+
+
+
+
+td .regForm{
+    width: 300px;
+}
+
+
+.adminOption{
+    text-align: left;
+    background: #ccc;
+    height: 80px;
+    width: 400px;
+
+}
+.actionCat{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.subAdminOption{
+    position: relative;
+
+    left: 30px;
+    text-align: left;
+
+
+    width: 400px;
+
+}
